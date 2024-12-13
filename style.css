@@ -274,8 +274,9 @@ span {
 }
 
 .row img {
-    height: auto;
+    height: 200px;
     width: 100%;
+    object-fit: cover;
     border-radius: 28px;
     margin-bottom: 1.4rem;
 }
@@ -354,7 +355,8 @@ span {
     border-radius: 10px;
     max-width: 350px;
     width: 100%;
-    min-height: 500px;
+    height: 160px;
+    min-height: 350px;
     padding: 20px;
     position: relative;
     text-align: left;
@@ -424,6 +426,7 @@ span {
 
     .experience-card {
         max-width: 90%;
+        padding: 20px;
     }
 }
 
@@ -471,6 +474,63 @@ span {
 
 .contact form .btn {
     margin-top: 2rem;
+}
+
+
+/*Tech Stacks*/
+.tech-stack-container {
+    padding-top: 80px;
+    text-align: center;
+    background: var(--first-bg-color); /* Dark background for the section */
+    color: white;
+}
+
+.tech-stack-container .heading span {
+    color: #FFB1B1; /* Accent color for your theme */
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.tech-stack-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default to 4 icons per row */
+    gap: 3rem;
+    justify-items: center;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.tech-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    box-shadow: 0 0 10px 2px white, 0 0 20px 5px white;
+    transition: box-shadow 0.3s ease;
+}
+
+.tech-stack-items > :nth-child(5),
+.tech-stack-items > :nth-child(6) {
+    grid-column: span 1;
+}
+
+@media screen and (max-width: 768px) {
+    .tech-stack-items {
+        grid-template-columns: repeat(2, 1fr); /* For smaller screens, show 2 icons per row */
+    }
 }
 
 /* Footer Section Code */
