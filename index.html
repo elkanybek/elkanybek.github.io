@@ -2,365 +2,359 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Elsana</title>
-    <link rel="icon" href="./assets/icon_new.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+  <title>Elsana Kanybek</title>
+
+  <meta name="keywords" content="software developer, software engineer, elkanybek, Elsana, Kanybek" />
+
+  <meta name="description" content="Elsana Kanybek" />
+
+  <link rel="icon" type="image/png" href="./assets/tulip.png" />
+
+  <meta name="theme-color" content="#FF5733" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://elkanybek.github.io/" />
+  <meta property="og:title" content="Elsana Kanybek" />
+  <meta property="og:image" content="./assets/google_me.png" />
+
+  <!-- link tags -->
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- FontAwesome Icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
 </head>
 
 <body>
-    <!-- Header Section -->
+  <!-- Hero Section -->
+  <div id="hero">
+    <video autoplay muted loop id="hero-video">
+      <source src="./assets/coding_video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <section class="container">
+      <h1 class="hero-title">
+        Hi there, I'm <span class="text-color-main name">Elsana Kanybek</span>
+      </h1>
+      <h2 class="hero-title" id="demo">
 
-    <header>
-        <a href="#home" class="logo">Elsana Kanybek</a>
-
-        <div class='bx bx-menu' id="menu-icon"></div>
-
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#tech-stack-container">Tech Stacks</a></li>
-            <!-- <li><a href="#contact">Contact</a></li> -->
-        </ul>
-
-        <div class="top-btn">
-            <!-- <a href="#contact" class="nav-btn">Contact Me on LinkedIn</a> -->
-            <a href="https://www.linkedin.com/in/elsanakanybek/" class="nav-btn">Contact Me on LinkedIn</a>
-        </div>
-    </header>
-
-    <!-- Home Section Code -->
-
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi there!</h3>
-            <h1>I am Elsana Kanybek</h1>
-            <h3>I'm a <span class="multiple-text"></span></h3>
-
-            <p>I'm a passionate software developer based in Montreal, Canada.</p>
-            <br/>
-            <p>
-                Currently pursuing a Computer Science degree at John Abbott College, graduating May 2025. Incoming CS student at Concordia University.
-            </p>
-            <br/>
-            <p>
-                I love creating projects. I’m all about bringing my touch of innovation in the workplace.
-            </p>
-
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/elsanakanybek/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/elkanybek/"><i class='bx bxl-github'></i></a>
-            </div>
-
-            <a href="./assets/ElsanaKanybek_CV.pdf" class="btn" download="ElsanaKanybekCV.pdf">Download CV</a>
-        </div>
-
-        <div class="home-img">
-            <img src="assets/google_me.png" alt="Profile Image">
-        </div>
+      </h2>
     </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+  <!-- /END Hero Section -->
 
-    <!-- About Section Code -->
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="assets/google_me.png" alt="">
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="./assets/google_me.png" alt="Profile Image" />
         </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            Hi there, I'm <strong>Elsana</strong>!
+            <br><br>
+            I'm studying <strong>Computer Science at John Abbott College</strong>. I've done <stron>Machine Learning and
+              Software Development </stron> research in the past, and I'm currently interning at <strong>Business
+              Development Bank of Canada</strong>.
+          </p>
+          <p class="about-wrapper__info-text">
+            I am dedicated to bringing <strong>innovative solutions</strong> to the workplace and continuously improving
+            my skills. I also like to attend hackathons. In my free time, I like to read, play tennis, and dance!
+            Say hi if we ever meet!
+          </p>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>I'm a <span>Computer Science Student</span></h3>
-            <p>
-                I am a passionate developer with a strong <span class="highlight">love for technology.</span> I just started my exciting journey with an internship in <span class="highlight">Data Modernization / Visualization at BDC.</span>
+          <span class="about-wrapper__cta">
+            <a href="./assets/ElsanaKanybek_CV.pdf" class="cta-btn cta-btn--resume" download>
+              View Resume!
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!--Projects Section-->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">EcoCap</h3>
+            <p class="project-wrapper__text-info">
+              <i>December 2024</i>
+              <br><br>
+              Applied AI-driven image recognition with ML Kit, achieving <b>95%+ accuracy</b> in verifying
+              user-submitted images.
+              <br><br>
+              Built a scalable application leveraging <b>Kotlin, Android Studio, and MVVM architecture</b> for
+              structured development.
             </p>
-            <p>
-                Currently, I’m in my third year at John Abbott College. My interests are ever-changing, but right now, <span class="highlight">AI/ML, web programming, and data</span> have my full attention.
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/elkanybek/EcoCap" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://github.com/elkanybek/EcoCap" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded ">
+                <img src="./assets/Ecocap.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Traveloo</h3>
+            <p class="project-wrapper__text-info">
+              <i>May 2024</i>
+              <br><br>
+              Conceptualized and executed a secure trip tracking system with authentication and session management.
+              <br><br>
+              Developed trip, activity, luggage, and budget management features using <b>Node.js, TypeScript, and
+                PostgreSQL</b>.
             </p>
-            <p>
-                I’m always eager to get involved in tech events like hackathons and conferences, which has led me to amazing experiences at <span class="highlight">CUSEC, NSEC and JAC HACKS.</span> These events help me grow and connect with other inspiring individuals.
-            </p>
-            <p>
-                I’m honored to have received multiple scholarships, including the <span class="highlight">FORTES Scholarship</span> from Banque Nationale and BDC, as well as recognition from Obvia and the AI4GoodLab.
-            </p>
-            <p>
-                One experience I’ll never forget was being invited for a private visit to <span class="highlight">Google Deepmind</span> while I was part of the AI4GoodLab 2024 cohort. It was an incredibly moment.
-            </p>
-            <p> I also love <span class="highlight">dancing and reading</span> as my side hobies that keeps me energized and happy.</p>
-            <a href="#portfolio" class="btn">Portfolio</a>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/elkanybek/MVC_Travel_Planning_WebApp" target="_blank"
+                rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://github.com/elkanybek/MVC_Travel_Planning_WebApp" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/Traveloo.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="row experience-wrapper">
+        <div class="experience-wrapper__image">
+          <img class="img-fluid" src="./assets/lobby_bdc.png" alt="Profile Image" />
         </div>
-
-    </section>
-
-    <!-- Portfolio Section Code -->
-
-    <section class="portfolio" id="portfolio">
-
-        <h2 class="heading">My <span>Portfolio</span></h2>
-
-        <div class="portfolio-content">
-            <div class="row">
-                <img src="assets/ecocap.png" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>Kotlin - ML Kit</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/EcoCap" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>EcoCap - A Mental Health Companion</h4>
-            </div>
-
-            <div class="row">
-                <img src="assets/whatsit.jpg" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>Llama 3 - Python - Aphasia</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/Whatsit_AI4GoodLab_Project" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>Whatsit - Al communication assistant tool</h4>
-            </div>
-
-            <div class="row">
-                <img src="assets/traveloo.jpg" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>TypeScript - Web App</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/MVC_Travel_Planning_WebApp" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>Traveloo - Travel Planning Tool</h4>
-            </div>
-
-            <div class="row">
-                <img src="assets/books.jpg" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>C# - WPF</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/Library_Management_System_Application" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>Library Management System</h4>
-            </div>
-
-            <div class="row">
-                <img src="assets/snake.png" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>C# Console</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/Snake-Game" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>Snake Game</h4>
-            </div>
-
-            <div class="row">
-                <img src="assets/chromablend.jpg" alt="">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>TypeScript - App</h5>
-                    </div>
-                    <div class="row-icon">
-                        <a href="https://github.com/elkanybek/ColorMaker" target="_blank">
-                            <i class="bx bxl-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <h4>ColorMaker - Art Students</h4>
-            </div>
+        <div class="experience-wrapper__info">
+          <h3 class="experience-wrapper__text-title">Software Engineer Intern - Applications</h3>
+          <p class="experience-wrapper__info-text">
+            <i>Business Development Bank of Canada - Internship</i>
+          </p>
+          <p class="experience-wrapper__info-text">
+          <ul class="experience-wrapper__bullet">
+            <li>Incoming Summer 2025</li>
+          </ul>
+          </p>
         </div>
-
-    </section>
-
-    <!-- Work Experience Section -->
-    <section class="experience" id="experience">
-        <h2 class="heading">Professional <span>Experience</span></h2>
-
-        <div class="experience-container">
-            <div class="experience-card">
-                <h3>Data Intern</h3>
-                <h4>Business Development Bank of Canada - BDC</h4>
-                <p><em>January 2025 - Present</em></p>
-                <ul>
-                    <li>- Creating pipelines in Azure DevOps</li>
-                    <li>- Conducting data analysis</li>
-                </ul>
-                <div class="experience-image">
-                    <img src="assets/bdc.png" alt="Group Picture">
-                </div>
-            </div>
-
-            <div class="experience-card">
-                <h3>Next Generation Fellowship</h3>
-                <h4>Obvia</h4>
-                <p><em>August 2024 - Present</em></p>
-                <ul>
-                    <li>- Researching on ADHD and building an application using Kotlin</li>
-                    <li>- Leading focus groups to collect data</li>
-                    <li>- Using Llama API for AI integration</li>
-                </ul>
-                <div class="experience-image">
-                    <img src="assets/obvia.png" alt="Group Picture">
-                </div>
-            </div>
-
-            <div class="experience-card">
-                <h3>Machine Learning Fellowship</h3>
-                <h4>Mila - Quebec Artificial Intelligence Institute</h4>
-                <p><em>May 2024 - June 2024</em></p>
-                <ul>
-                    <li>- Defining ML problems and understanding data requirements</li>
-                    <li>- Pre-processing data to extract insights</li>
-                    <li>- Selecting and analyzing the best ML models and features</li>
-                </ul>
-                <div class="experience-image">
-                    <img src="assets/mila.png" alt="Group Picture">
-                </div>
-            </div>
+      </div>
+      <div class="row experience-wrapper">
+        <div class="experience-wrapper__info">
+          <h3 class="experience-wrapper__text-title">Data Analyst Intern - Data</h3>
+          <p class="experience-wrapper__info-text">
+            <i>Business Development Bank of Canada - Internship</i>
+          </p>
+          <p class="experience-wrapper__info-text">
+          <ul class="experience-wrapper__bullet">
+            <li>Built interactive Power BI reports using DAX, SQL, and Databricks spanning <b>~20 data tables</b> with
+              high-volume, continuously updated entries</li>
+            <li>Performed data cleaning and established relationships across usage datasets to drive insight</li>
+            <li>Integrated Azure DevOps Pipelines with Power BI to enable CI/CD deployment of reports, improving release
+              efficiency and version tracking</li>
+            <li>Designed a custom Power BI Desktop theme aligned with BDC branding now in production for <b>50+
+                users</b></li>
+          </ul>
+          </p>
         </div>
-    </section>
-
-    <section class="tech-stack-container" id="tech-stack-container">
-        <h2 class="heading"><span>Tech Stacks</span></h2>
-        <br>
-        <div class="tech-stack-items">
-            <div class="tech-item">
-                <img src="./assets/icons/c-sharp.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/python.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/typescript.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/database.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/html-5.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/css-3.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/nodejs.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/docker-mark-blue.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/pycharm.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/rider.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/vs.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/github.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/bash.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/cisco.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/powershell.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/jira.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/huggingface.svg" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/colab.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/git.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/jquery.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/powerbi.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/azuredevops.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/databricks.png" alt="Tech Icon" class="tech-icon">
-            </div>
-            <div class="tech-item">
-                <img src="./assets/icons/vscode.png" alt="Tech Icon" class="tech-icon">
-            </div>
+        <div class="experience-wrapper__image">
+          <img class="img-fluid" src="./assets/Data_team.jpg" alt="Profile Image" />
         </div>
-    </section>
-    
+      </div>
 
-    <!-- Contact Section Code -->
-
-    <!-- <section class="contact" id="contact">
-
-        <h2 class="heading">Contact <span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-
-    </section> -->
-
-
-    <!-- Footer Section Code -->
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/elsanakanybek/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/elkanybek/"><i class='bx bxl-github'></i></a>
+      <div class="row experience-wrapper">
+        <div class="experience-wrapper__image">
+          <img class="img-fluid" src="./assets/obvia_me.jpg" alt="Profile Image" />
         </div>
+        <div class="experience-wrapper__info">
+          <h3 class="experience-wrapper__text-title">Software Engineer</h3>
+          <p class="experience-wrapper__info-text">
+            <i>OBVIA - Next Generation Fellowship</i>
+          </p>
+          <p class="experience-wrapper__info-text">
+          <ul class="experience-wrapper__bullet">
+            <li>Reviewed <b>50+ scholarly articles</b> on ADHD to devise well-being strategies</li>
+            <li>Developed and structured DeficitIA, a mental health application with <b>2,000+ lines of Kotlin</b> code
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
 
-        <p class="copyright">
-            &copy; Elsana Kanybek | All Rights Reserved
-        </p>
-    </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+      <div class="row experience-wrapper">
+        <div class="experience-wrapper__info">
+          <h3 class="experience-wrapper__text-title">Machine Learning Fellow</h3>
+          <p class="experience-wrapper__info-text">
+            <i>Mila Artificial Intelligence Institute - AI4Good Lab</i>
+          </p>
+          <p class="experience-wrapper__info-text">
+          <ul class="experience-wrapper__bullet">
+            <li>Acquired hands-on expertise in full-cycle machine learning workflows through <b>10+ coding
+                initiatives</b></li>
+            <li>Engineered, fine-tuned, and evaluated multiple prototype ML models</li>
+            <li>Applied techniques in supervised, unsupervised, and reinforcement learning, leveraging <b>10+
+                datasets</b></li>
+          </ul>
+          </p>
+        </div>
+        <div class="experience-wrapper__image">
+          <img class="img-fluid" src="./assets/Group_Picture.png" alt="Profile Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Experience Section -->
+
+  <!-- Awards Section -->
+  <section id="awards">
+    <div class="container">
+      <h2 class="section-title">Awards</h2>
+      <div class="row awards-wrapper">
+        <div class="awards-wrapper__image">
+          <img class="img-fluid" src="./assets/Fortes_March.jpeg" alt="Profile Image" />
+          <img class="img-fluid" src="./assets/Fortes_November.jpeg" alt="Profile Image" />
+        </div>
+        <div class="awards-wrapper__info">
+          <h3 class="awards-wrapper__text-title">FORTES Scholarship 2x</h3>
+          <p class="awards-wrapper__info-text">
+            <i>National Bank of Canada & BDC</i>
+          </p>
+          <p class="awards-wrapper__info-text">
+          <ul class="awards-wrapper__bullet">
+            <li>Scholarship awarded in recognition of my success,
+              <br>
+              determination, perseverance and commitment
+              <br>
+              to my studies in the IT field.
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="row awards-wrapper">
+        <div class="awards-wrapper__image">
+          <img class="img-fluid" src="./assets/Obvia_winners.jpeg" alt="Profile Image" />
+        </div>
+        <div class="awards-wrapper__info">
+          <h3 class="awards-wrapper__text-title">Next Generation Fellowship Winner</h3>
+          <p class="awards-wrapper__info-text">
+            <i>OBVIA</i>
+          </p>
+          <p class="awards-wrapper__info-text">
+          <ul class="awards-wrapper__bullet">
+            Encouraging top candidates to undertake or pursue research
+            <br>
+            or research-creation activities in the field of social impacts
+            <br>
+            of artificial intelligence and digital technologies, and responsible innovation.
+          </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">Reach out via email or LinkedIn 🌷</p>
+        <div id="contact-box">
+          <div class="contact-wrapper__info">
+            <svg fill="#ffffff" height="30px" width="30px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.3 483.3" xml:space="preserve"
+              stroke="#ffffff">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <g>
+                  <g>
+                    <path
+                      d="M424.3,57.75H59.1c-32.6,0-59.1,26.5-59.1,59.1v249.6c0,32.6,26.5,59.1,59.1,59.1h365.1c32.6,0,59.1-26.5,59.1-59.1 v-249.5C483.4,84.35,456.9,57.75,424.3,57.75z M456.4,366.45c0,17.7-14.4,32.1-32.1,32.1H59.1c-17.7,0-32.1-14.4-32.1-32.1v-249.5 c0-17.7,14.4-32.1,32.1-32.1h365.1c17.7,0,32.1,14.4,32.1,32.1v249.5H456.4z">
+                    </path>
+                    <path
+                      d="M304.8,238.55l118.2-106c5.5-5,6-13.5,1-19.1c-5-5.5-13.5-6-19.1-1l-163,146.3l-31.8-28.4c-0.1-0.1-0.2-0.2-0.2-0.3 c-0.7-0.7-1.4-1.3-2.2-1.9L78.3,112.35c-5.6-5-14.1-4.5-19.1,1.1c-5,5.6-4.5,14.1,1.1,19.1l119.6,106.9L60.8,350.95 c-5.4,5.1-5.7,13.6-0.6,19.1c2.7,2.8,6.3,4.3,9.9,4.3c3.3,0,6.6-1.2,9.2-3.6l120.9-113.1l32.8,29.3c2.6,2.3,5.8,3.4,9,3.4 c3.2,0,6.5-1.2,9-3.5l33.7-30.2l120.2,114.2c2.6,2.5,6,3.7,9.3,3.7c3.6,0,7.1-1.4,9.8-4.2c5.1-5.4,4.9-14-0.5-19.1L304.8,238.55z">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <p class="contact-wrapper__text number"><a href="mailto:elkanybek@gmail.com"
+                aria-label="Send an email to elkanybek@gmail.com">elkanybek@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="www.linkedin.com/in/elsanakanybek" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/elkanybek" target="_blank" rel="noopener noreferrer" aria-label="github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span> - Made by
+        <a href="https://github.com/elkanybek" target="_blank" rel="noopener noreferrer">Elsana Kanybek</a>. <br />Made
+        with &hearts;
+      </p>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear()
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
 </body>
 
 </html>
