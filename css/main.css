@@ -839,6 +839,12 @@ section .row span {
   border-radius: 15px;
 }
 
+#projects .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
 @media (max-width: 37.5em) {
   #projects .project-wrapper__image .thumbnail {
     box-shadow: none;
