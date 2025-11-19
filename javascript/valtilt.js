@@ -25,7 +25,7 @@ document.querySelectorAll(".thumbnail").forEach((thumbnail) => {
 //Typewriter effect
 var i = 0;
 var wordIndex = 0;
-var words = ['Computer Science Student', 'Software Engineer Intern', 'Fortes Scholarship Recipient', 'AI4Good Lab Fellowship Recipient', 'OBVIA Fellowship Recipient', 'Content Creator'];
+var words = ['Computer Science Student', 'Software Developer', 'Vice President Finance @ HackConcordia', 'Fortes Scholarship Recipient', 'AI4Good Lab Fellowship Recipient', 'OBVIA Fellowship Recipient'];
 var speed = 45;
 var isDeleting = false;
 
