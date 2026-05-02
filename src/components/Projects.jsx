@@ -7,6 +7,7 @@ import ExternalLinks from "./ExternalLinks";
 import travelooImg from "../assets/Projects/traveloo.png";
 import savethechickenImg from "../assets/Projects/savethechicken.png";
 import whatsitImg from "../assets/Projects/whatsit.png";
+import portfolioImg from "../assets/Projects/portfolio.png";
 
 const spotlightProjects = {
   Traveloo: {
@@ -29,6 +30,14 @@ const spotlightProjects = {
     techStack: "Python, OpenAI's Whisper, Meta's Llama3",
     link: "https://github.com/elkanybek/Whatsit_AI4GoodLab_Project",
     image: whatsitImg,
+  },
+  "Portfolio": {
+    title: "elkanybek's portfolio",
+    desc: "This is my portfolio, designed using React and Vite.",
+    techStack: "React.js, Vite, Bootstrap",
+    link: "https://github.com/elkanybek/elkanybek.github.io/",
+    open: "https://elkanybek.github.io/",
+    image: portfolioImg,
   },
 };
 

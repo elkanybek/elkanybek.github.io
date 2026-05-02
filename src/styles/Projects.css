@@ -160,9 +160,14 @@
 .carousel-caption {
   font-family: "NTR", sans-serif;
   max-width: 500px;
-  right: unset !important;
-  left: 25% !important;
+  right: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%);
   user-select: none;
+  position: absolute !important;
+  bottom: 50% !important;
+  top: 55% !important;
+  transform: translate(-50%, -50%);
 }
 
 .carousel-caption h3 {
