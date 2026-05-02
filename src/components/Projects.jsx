@@ -4,9 +4,9 @@ import FolderOpenRoundedIcon from "@mui/icons-material/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import { Carousel } from "react-bootstrap";
 import ExternalLinks from "./ExternalLinks";
-import travelooImg from "../assets/projects/traveloo.png";
-import savethechickenImg from "../assets/projects/savethechicken.png";
-import whatsitImg from "../assets/projects/whatsit.png";
+import travelooImg from "../assets/Projects/traveloo.png";
+import savethechickenImg from "../assets/Projects/savethechicken.png";
+import whatsitImg from "../assets/Projects/whatsit.png";
 
 const spotlightProjects = {
   Traveloo: {
